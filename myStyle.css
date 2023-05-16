@@ -1,0 +1,13 @@
+header{text-align: top; 
+       height: 100px;
+       background-color: chocolate;}
+
+header div{font-size: 30px; width: 200px; float: left;
+           }
+
+header p{float: left; width: 20%; height: 70%; }
+
+p{background-color: greenyellow;
+  text-align: center;}
+
+.button{background-color: cyan;}
