@@ -10,4 +10,4 @@ header p{float: left; width: 20%; height: 70%; }
 p{background-color: greenyellow;
   text-align: center;}
 
-.button{background-color: cyan;}
+.button{background-color: cyan; text-align: center;}
