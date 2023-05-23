@@ -1,0 +1,8 @@
+div td{background: linen; 
+    width: 30px; height: 25px; 
+    }
+div td:hover{background-color: #33b6ee;}
+div p{text-align: center;}
+div {width: 100px; height: 50px; float: top;}
+
+div table{border: 1px solid violet;}
