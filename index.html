@@ -6,10 +6,18 @@
         </style>
     </head>
     <body>       
-        <header>
-            <div>홈페이지 이름</div>
-            <p style="background-color: red;">카테고리</p>
-            <p class="button" style="background-color: orange;" onclick="location.href='list.html'">전체 추천 게임목록 이동</p>
+        <header class="nav">
+            <div><a href="./index.html">홈페이지 이름</a></div>
+            <ul id="menu">
+                <li id="category">카테고리
+                    <ul class="sub_category">
+                        <li>카테고리 1</li>
+                        <li>카테고리 2</li>
+                        <li>카테고리 3</li>
+                    </ul>
+                </li>
+                <li onclick="location.href='list.html'">전체 추천 게임목록 이동</li>
+            </ul>          
         </header>
         <p>본문 내용</p>
         <div class="button" onclick="location.href='question.html'">게임 추천 받기</div>
