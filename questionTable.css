@@ -7,7 +7,53 @@ div td{background: linen;
 div td:hover{background-color: #33b6ee;}
 div > p{
     text-align: center;
-    margin-left: 40px;
+    margin-left: 40px;*{padding:0;margin:0}
+
+div {
+    background-color: bisque;
+    width: 500px; height: 70px; 
+    float: top;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+div > p{
+    text-align: center;
+}
+
+div > span{margin-left: 5px; margin-right: 5px;}
+div > span.left{
+    float: left;
+    width: 25%;
+    margin-left: 5px;
+}
+div > span.right{
+    width: 25%;
+    float: right;
+    margin-right: 5px;
+}
+
+.selectDiv{
+    /*background-color: aqua;*/
+    width: 50%; height: 30px;
+    
+}
+.selectDiv input[type=radio]{
+    display: none;
+}
+.selectDiv input[type=radio] + label{
+    margin: auto;
+    display: inline-block;
+    width: 30px; height: 25px;
+    background: linen; 
+    border: 2px solid blueviolet;
+}
+.selectDiv input[type=radio]:checked + label{
+    background-color: cornflowerblue;
+}
+.selectDiv input[type=radio]:hover + label{
+    background-color: cornflowerblue;
+}
 }
 div > span{margin-left: 5px; margin-right: 5px;}
 div > span.left{
