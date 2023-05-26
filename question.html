@@ -2,22 +2,28 @@
 <html>
     <head>
         <style>@import url(questionTable.css);</style>
+        <script src="questionScript.js"></script>
         <title>question</title>
     </head>
-    <body>
+    <body onload="init()">
         <div>
             <p>질문 1</p>
             <span class="left">전혀 그렇지 않다</span>
             <span class="right">매우 그렇다</span>
-            <table>
-                <td onclick=""></td>
-                <td onclick=""></td>
-                <td onclick=""></td>
-                <td onclick=""></td>
-                <td onclick=""></td>
-                <td onclick=""></td>
-            </table>
-            
+            <div class="selectDiv">
+                <input type="radio" name="Q1" id="Q1-S1">
+                <label for="Q1-S1"></label>
+                <input type="radio" name="Q1" id="Q1-S2">
+                <label for="Q1-S2"></label> 
+                <input type="radio" name="Q1" id="Q1-S3">
+                <label for="Q1-S3"></label> 
+                <input type="radio" name="Q1" id="Q1-S4">
+                <label for="Q1-S4"></label> 
+                <input type="radio" name="Q1" id="Q1-S5">
+                <label for="Q1-S5"></label> 
+                <input type="radio" name="Q1" id="Q1-S6">
+                <label for="Q1-S6"></label>
+            </div>
         </div>
     </body>
 </html>
