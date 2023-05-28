@@ -1,15 +1,7 @@
 *{padding:0;margin:0}
+body{background-color: #fff3e0;}
 
-div {width: 400px; height: 50px; float: top;}
-div td{background: linen; 
-    width: 30px; height: 25px; 
-    }
-div td:hover{background-color: #33b6ee;}
-div > p{
-    text-align: center;
-    margin-left: 40px;*{padding:0;margin:0}
-
-div {
+.question_div {
     background-color: bisque;
     width: 500px; height: 70px; 
     float: top;
@@ -17,51 +9,57 @@ div {
     border-radius: 10px;
 }
 
-div > p{
+.question_div > p{
     text-align: center;
 }
 
-div > span{margin-left: 5px; margin-right: 5px;}
-div > span.left{
+.question_div > span{
+    text-align: center;
+    margin-left: 5px; 
+    margin-right: 5px;
+}
+.question_div > span.left{
     float: left;
     width: 25%;
     margin-left: 5px;
 }
-div > span.right{
+.question_div > span.right{
     width: 25%;
     float: right;
     margin-right: 5px;
 }
 
 .selectDiv{
-    /*background-color: aqua;*/
     width: 50%; height: 30px;
-    
+    margin: 10px auto;
 }
 .selectDiv input[type=radio]{
     display: none;
 }
-.selectDiv input[type=radio] + label{
+.selectDiv > label{
     margin: auto;
     display: inline-block;
     width: 30px; height: 25px;
     background: linen; 
-    border: 2px solid blueviolet;
+    border: 2px solid #FF7F50;
 }
-.selectDiv input[type=radio]:checked + label{
-    background-color: cornflowerblue;
+.selectDiv .positive[type=radio]:checked + label{
+    background-color: #3CB371;
 }
-.selectDiv input[type=radio]:hover + label{
-    background-color: cornflowerblue;
+.selectDiv .negative[type=radio]:checked + label{
+    background-color: #9905D8;
 }
+.selectDiv .positive[type=radio]:hover + label{
+    background-color: #3CB371;
 }
-div > span{margin-left: 5px; margin-right: 5px;}
-div > span.left{
-    float: left;
+.selectDiv .negative[type=radio]:hover + label{
+    background-color: #9905D8;
 }
-div > span.right{
-    float: right;
-}
-div table{
-    border: 1px solid violet;
+input[type=submit]{
+    position: relative;
+    left: 48%;
+    width: 50px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 2px;
 }
