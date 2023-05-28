@@ -76,12 +76,19 @@ header > ul > li{
   line-height: 55px;
   width: 150px;
   height: 75px;
-  background-color: cyan;
+  background-color: #46FFFF;
   text-align: center;
   font-size: 20px;
+  font-style: italic;
   border-radius: 5px;
-  border: none;
-  box-shadow: 0px 0px 3px 3px #3CAEFF;
+  border: 3px outset #32F1FF;
+  box-shadow: 2px 2px 3px 3px #3CAEFF;
+}
+
+#go_quest > div:hover{
+  background-color: #00E1FF;
+  border: 3px outset #00E1FF;
+  transition: 0.5s;
 }
 
 @media screen and (max-width: 800px) {
