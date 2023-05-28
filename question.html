@@ -6,24 +6,65 @@
         <title>question</title>
     </head>
     <body onload="init()">
-        <div>
+        <form action="result.html" onsubmit="processing(this)">
+        <div class="question_div">
             <p>질문 1</p>
             <span class="left">전혀 그렇지 않다</span>
             <span class="right">매우 그렇다</span>
-            <div class="selectDiv">
-                <input type="radio" name="Q1" id="Q1-S1">
+            <div class="selectDiv">                
+                <input class="negative" type="radio" name="Q1" id="Q1-S1" value="1" required>
                 <label for="Q1-S1"></label>
-                <input type="radio" name="Q1" id="Q1-S2">
+                <input class="negative" type="radio" name="Q1" id="Q1-S2" value="2">
                 <label for="Q1-S2"></label> 
-                <input type="radio" name="Q1" id="Q1-S3">
+                <input class="negative" type="radio" name="Q1" id="Q1-S3" value="3">
                 <label for="Q1-S3"></label> 
-                <input type="radio" name="Q1" id="Q1-S4">
+                <input class="positive" type="radio" name="Q1" id="Q1-S4" value="4">
                 <label for="Q1-S4"></label> 
-                <input type="radio" name="Q1" id="Q1-S5">
+                <input class="positive" type="radio" name="Q1" id="Q1-S5" value="5">
                 <label for="Q1-S5"></label> 
-                <input type="radio" name="Q1" id="Q1-S6">
+                <input class="positive" type="radio" name="Q1" id="Q1-S6" value="6">
                 <label for="Q1-S6"></label>
             </div>
         </div>
+        <div class="question_div">
+            <p>질문 2</p>
+            <span class="left">전혀 그렇지 않다</span>
+            <span class="right">매우 그렇다</span>
+            <div class="selectDiv">
+                <input class="negative" type="radio" name="Q2" id="Q2-S1" value="1" required>
+                <label for="Q2-S1"></label>
+                <input class="negative" type="radio" name="Q2" id="Q2-S2" value="2">
+                <label for="Q2-S2"></label> 
+                <input class="negative" type="radio" name="Q2" id="Q2-S3" value="3">
+                <label for="Q2-S3"></label> 
+                <input class="positive" type="radio" name="Q2" id="Q2-S4" value="4">
+                <label for="Q2-S4"></label> 
+                <input class="positive" type="radio" name="Q2" id="Q2-S5" value="5">
+                <label for="Q2-S5"></label> 
+                <input class="positive" type="radio" name="Q2" id="Q2-S6" value="6">
+                <label for="Q2-S6"></label>
+            </div>
+        </div>
+        <div class="question_div">
+            <p>질문 3</p>
+            <span class="left">전혀 그렇지 않다</span>
+            <span class="right">매우 그렇다</span>
+            <div class="selectDiv">
+                <input class="negative" type="radio" name="Q3" id="Q3-S1" value="1" required>
+                <label for="Q3-S1"></label>
+                <input class="negative" type="radio" name="Q3" id="Q3-S2" value="2">
+                <label for="Q3-S2"></label> 
+                <input class="negative" type="radio" name="Q3" id="Q3-S3" value="3">
+                <label for="Q3-S3"></label> 
+                <input class="positive" type="radio" name="Q3" id="Q3-S4" value="4">
+                <label for="Q3-S4"></label> 
+                <input class="positive" type="radio" name="Q3" id="Q3-S5" value="5">
+                <label for="Q3-S5"></label> 
+                <input class="positive" type="radio" name="Q3" id="Q3-S6" value="6">
+                <label for="Q3-S6"></label>
+            </div>
+        </div>
+        <input type="submit">
+        </form>
     </body>
 </html>
