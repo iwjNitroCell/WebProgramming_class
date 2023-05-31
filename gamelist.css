@@ -1,0 +1,16 @@
+*{padding: 0px; margin: 0px;}
+
+div{
+    background-color: aqua;
+    height: 120px;
+    margin: 10px;
+}
+h3{
+    width: 35%;
+    background-color: yellow;
+}
+img{
+    width: 25%; 
+    height: 80%;
+    float: right;
+}
