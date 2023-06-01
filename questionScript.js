@@ -8,18 +8,17 @@ function processing(){
     const urlParams = url.searchParams;
 
     score[0] += Number(urlParams.get("Q1"));
-    score[0] += Number(urlParams.get("Q2"));
-    score[0] += Number(urlParams.get("Q3"));
-    score[1] += Number(urlParams.get("Q4"));
+    score[0] += Number(urlParams.get("Q6"));
+    score[0] += Number(urlParams.get("Q11"));
     score[1] += Number(urlParams.get("Q5"));
-    score[1] += Number(urlParams.get("Q6"));
-    score[2] += Number(urlParams.get("Q7"));
-    score[2] += Number(urlParams.get("Q8"));
+    score[1] += Number(urlParams.get("Q7"));
+    score[1] += Number(urlParams.get("Q12"));
+    score[2] += Number(urlParams.get("Q2"));
+    score[2] += Number(urlParams.get("Q4"));
     score[2] += Number(urlParams.get("Q9"));
+    score[3] += Number(urlParams.get("Q3"));
+    score[3] += Number(urlParams.get("Q8"));
     score[3] += Number(urlParams.get("Q10"));
-    score[3] += Number(urlParams.get("Q11"));
-    score[3] += Number(urlParams.get("Q12"));
-    console.log(score);
     
     for(var i=0; i<score.length; i++){
         switch(i){
