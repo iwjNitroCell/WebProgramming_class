@@ -1,16 +1,38 @@
 *{padding: 0px; margin: 0px;}
+body{background-color: #fff3e0;;}
 
-div{
+body > div{
     background-color: aqua;
     height: 120px;
-    margin: 10px;
+    width: 700px;
+    margin: 10px auto;
+    border-radius: 5px;
+    border: 3px solid blue;
+    border-style: ridge;
 }
 h3{
-    width: 35%;
+    width: 50%;
     background-color: yellow;
+    float: left;
+    border-top-left-radius: 5px;
+}
+.category{
+    position: relative;
+    width: 67%;
+    float: left;
+    top: 50%;
+    left: 3px;
+}
+
+.category > span{
+    border: 3px solid black;
+    border-style: inset;
+    background-color: chartreuse;
+    
 }
 img{
-    width: 25%; 
-    height: 80%;
+    width: 30%;
+    height: 90%;
     float: right;
+    margin-top: 5px;
 }
