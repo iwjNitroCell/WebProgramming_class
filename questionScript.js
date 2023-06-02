@@ -12,7 +12,7 @@ function processing(){
     div = document.getElementById("resultDiv");
     Img = div.children[0].children[0];
     H3 = div.children[1];
-    A = div.children[2];
+    A = div.children[2].children[0];
 
     const url = new URL(window.location.href);
     const urlParams = url.searchParams;
