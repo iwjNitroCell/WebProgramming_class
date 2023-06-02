@@ -3,72 +3,122 @@
     <head>
         <title>game list</title>
         <style>@import url(gamelist.css);</style>
-        <script></script>
+        <script src="createPage.js"></script>
     </head>
-    <body>
-        <div id="1">
+    <body onload="init()">
+        <a href="index.html">메인 페이지</a>
+        <div class="game shooting multi survival" id="1">
             <h3>Left 4 Dead 2</h3>
             <img src="./img/left_4_dead_2.PNG">
+            <div class="category">
+                <span>슈팅</span> <span>멀티 플레이</span> <span>좀비</span> <span>고어</span> <span>생존</span>
+            </div>
+            
         </div>
-        <div id="2">
+        <div class="game shooting multi strategy" id="2">
             <h3>Rainbow six Seige</h3>
             <img src="./img/raindow_6_seige.PNG">
+            <div class="category">
+                <span>슈팅</span> <span>전략</span> <span>멀티 플레이</span> <span>경쟁</span>
+            </div>
         </div>
-        <div id="3">
-            <h3>Stardew Valley</h3>
-            <img src="./img/stardew_valley.PNG">
-        </div>
-        <div id="4">
-            <h3>Skul The Hero Slayer</h3>
-            <img src="./img/skul.PNG">
-        </div>
-        <div id="5">
-            <h3>Sid Meier's Civilization VI</h3>
-            <img src="./img/civilization.PNG">
-        </div>
-        <div id="6">
-            <h3>Monster Hunter: World</h3>
-            <img src="./img/monster_hunter.PNG">
-        </div>
-        <div id="7">
-            <h3>Human: Fall Flat</h3>
-            <img src="./img/human_fall_flat.PNG">
-        </div>
-        <div id="8">
-            <h3>Hunt: Showdown</h3>
-            <img src="./img/hunt_showdown.PNG">
-        </div>
-        <div id="9">
-            <h3>ARK: Survival Evolved</h3>
-            <img src="./img/ark_survival.PNG">
-        </div>
-        <div id="10">
+        <div class="game shooting multi single pixel" id="3">
             <h3>Enter the Gungeon</h3>
             <img src="./img/enter_the_gungeon.PNG">
+            <div class="category">
+                <span>인디</span> <span>로그라이크</span> <span>픽셀 그래픽</span> <span>슈팅</span> <span>싱글</span> <span>멀티 플레이</span>
+            </div>
         </div>
-        <div id="11">
+        <div class="game single pixel action" id="4">
+            <h3>Skul The Hero Slayer</h3>
+            <img src="./img/skul.PNG">
+            <div class="category">
+                <span>인디</span> <span>로그라이크</span> <span>픽셀 그래픽</span> <span>액션</span> <span>싱글</span> 
+            </div>
+        </div>
+        <div class="game multi strategy" id="5">
+            <h3>Sid Meier's Civilization VI</h3>
+            <img src="./img/civilization.PNG">
+            <div class="category">
+                <span>전략</span> <span>멀티 플레이</span> <span>역사</span> <span>턴제</span>
+            </div>
+        </div>
+        <div class="game multi action" id="6">
+            <h3>Monster Hunter: World</h3>
+            <img src="./img/monster_hunter.PNG">
+            <div class="category">
+                <span>액션</span> <span>멀티 플레이</span> <span>오픈 월드</span> <span>판타지</span>
+            </div>
+        </div>
+        <div class="game multi" id="7">
+            <h3>Human: Fall Flat</h3>
+            <img src="./img/human_fall_flat.PNG">
+            <div class="category">
+                <span>멀티 플레이</span> <span>퍼즐</span> <span>어드벤처</span> <span>유머</span>
+            </div>
+        </div>
+        <div class="game single multi shooting multi strategy survival" id="8">
+            <h3>Hunt: Showdown</h3>
+            <img src="./img/hunt_showdown.PNG">
+            <div class="category">
+                <span>슈팅</span> <span>전략</span> <span>멀티 플레이</span> <span>분위기있는</span> <span>싱글</span> <span>멀티</span> <span>생존</span>
+            </div>
+        </div>
+        <div class="game single multi survival" id="9">
+            <h3>ARK: Survival Evolved</h3>
+            <img src="./img/ark_survival.PNG">
+            <div class="category">
+                <span>생존</span> <span>오픈월드</span> <span>멀티 플레이</span> <span>싱글</span> <span>제작</span> <span>공룡</span>
+            </div>
+        </div>
+        <div class="game single pixel" id="10">
+            <h3>Stardew Valley</h3>
+            <img src="./img/stardew_valley.PNG">
+            <div class="category">
+                <span>시뮬레이션</span> <span>픽셀 그래픽</span> <span>싱글</span> <span>릴랙스</span>
+            </div>
+        </div>
+        <div class="game multi strategy" id="11">
             <h3>HearthStone</h3>
             <img src="./img/hearthstone.jpg">
+            <div class="category">
+                <span>멀티 플레이</span> <span>전략</span> <span>카드</span> <span>턴제</span>
+            </div>
         </div>
-        <div id="12">
+        <div class="game single strategy" id="12">
             <h3>Slay the Spire</h3>
             <img src="./img/slay_the_spire.PNG">
+            <div class="category">
+                <span>싱글</span> <span>카드</span> <span>턴제</span> <span>로그라이크</span> <span>전략</span> <span>인디</span>
+            </div>
         </div>
-        <div id="13">
+        <div class="game single multi puzzle" id="13">
             <h3>Portal 2</h3>
             <img src="./img/portal2.PNG">
+            <div class="category">
+                <span>싱글</span> <span>멀티 플레이</span> <span>퍼즐</span> <span>공상과학</span>
+            </div>
         </div>
-        <div id="14">
+        <div class="game single shooting pixel action" id="14">
             <h3>Vampire Survivors</h3>
             <img src="./img/vampire_survivors.PNG">
+            <div class="category">
+                <span>로그라이크</span> <span>액션</span> <span>싱글</span> <span>픽셀 그래픽</span> <span>슈팅</span>
+            </div>
         </div>
-        <div id="15">
+        <div class="game multi strategy" id="15">
             <h3>For The King</h3>
             <img src="./img/for_the_king.PNG">
+            <div class="category">
+                <span>턴제</span> <span>전략</span> <span>멀티 플레이</span> <span>판타지</span>
+            </div>
         </div>
-        <div id="16">
+        <div class="game single pixel puzzle" id="16">
             <h3>There Is No Game: Wrong Dimension</h3>
             <img src="./img/there_is_no_game.PNG">
+            <div class="category">
+                <span>인디</span> <span>퍼즐</span> <span>픽셀 그레픽</span> <span>싱글</span>
+            </div>
         </div>
     </body>
 </html>
