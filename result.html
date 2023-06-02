@@ -3,10 +3,26 @@
     <head>
         <title>result</title>
         <script src="questionScript.js"></script>
+        <style>
+            *{padding:0;margin:0}
+            body{background-color: #fff3e0;}
+            h1{text-align: center; margin: 30px auto;}
+
+            #resultDiv *{
+                background-color: aqua;
+                text-align: center;
+                width: 300px;
+                margin: 10px auto;
+            }
+            #resultDiv h3{width: 400px;}
+        </style>
     </head>
     <body onload="processing()">
-        <h3>결과는?</h3>
-        <p>게임 이름</p>
-        <a></a>
+        <h1>결과는?</h1>
+        <div id="resultDiv">
+            <div><img src="" alt="게임 이미지"></div>    
+            <h3>게임 이름</h3>
+            <a href="gamePage.html?"><div>게임 소개 페이지</div></a>
+        </div>
     </body>
 </html>
