@@ -18,3 +18,7 @@ function show(name){
         }
     }
 }
+
+function moveGamePage(code){
+    window.location.href = "gamePage.html?gamecode=" + code;
+}
