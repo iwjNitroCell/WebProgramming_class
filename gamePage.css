@@ -7,3 +7,21 @@ a{
   }
 
 div{width: 100px; height: 70px;}
+
+.cell_title{
+  text-align: center;
+}           
+table > *{border: 2px solid purple;}
+table{
+  border: 2px solid black;
+  margin: 50px;
+  float: right;
+  width: 300px;
+}
+td{border: 2px solid red;}
+
+#main{
+  margin: 50px;
+  float: left;
+  border: 2px solid black;
+}
