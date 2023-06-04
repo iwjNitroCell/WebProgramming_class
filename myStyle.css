@@ -78,6 +78,10 @@ header > ul > li{
   background-color: #94a9ff; 
 }
 
+#category:hover > .sub_category > li:hover{
+  background-color: #6E6EFF;
+}
+
 #go_quest{
   margin: auto;
   margin-top: 30px;
