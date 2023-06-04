@@ -4,9 +4,19 @@ a{
     text-decoration: none;
     color: inherit;
     display: block;
+    
   }
 
 body > div{
+  margin: 5px auto;
+  background-color: #E6A55A;
+  border-radius: 2px;
+  border: 3px solid #D2691E;
+  width: 95%;
+  height: 500px;
+}
+
+body > div > div{
   width: 50%;
   float: left;
   margin: 5px auto;
