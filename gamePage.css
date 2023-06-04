@@ -7,6 +7,8 @@ a{
     
   }
 
+#back{width: 100px;}
+
 body > div{
   margin: 5px auto;
   background-color: #E6A55A;
