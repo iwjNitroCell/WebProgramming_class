@@ -6,22 +6,29 @@ a{
     display: block;
   }
 
-div{width: 100px; height: 70px;}
+body > div{
+  width: 50%;
+  float: left;
+  margin: 5px auto;
+}
 
 .cell_title{
   text-align: center;
 }           
 table > *{border: 2px solid purple;}
 table{
+  background-color: #F4AAAA;
   border: 2px solid black;
-  margin: 50px;
+  margin: 10px;
+  margin-top: 50px;
   float: right;
-  width: 300px;
 }
 td{border: 2px solid red;}
 
 #main{
-  margin: 50px;
+  background-color: #7DA5E1;
+  margin: 10px;
+  margin-top: 50px;
   float: left;
   border: 2px solid black;
 }
